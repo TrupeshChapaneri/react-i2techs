@@ -20,7 +20,7 @@ function Header() {
                 variant="contained"
                 onClick={() => setAddPost(true)}
               >
-                Add
+                Add Post
               </Button>
             </Toolbar>
           </Container>
