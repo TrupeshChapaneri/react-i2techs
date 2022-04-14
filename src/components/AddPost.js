@@ -25,7 +25,6 @@ function AddPost({ open, setOpen }) {
 
   const { setGlobalState } = useContext(GlobalContext);
 
-
   const { handleSubmit, errors, control } = useForm({
     mode: "onTouched",
     shouldFocusError: true,
