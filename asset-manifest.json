@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-i2techs/static/css/main.db2df6fc.css",
+    "main.js": "/react-i2techs/static/js/main.4baa3279.js",
+    "index.html": "/react-i2techs/index.html",
+    "main.db2df6fc.css.map": "/react-i2techs/static/css/main.db2df6fc.css.map",
+    "main.4baa3279.js.map": "/react-i2techs/static/js/main.4baa3279.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db2df6fc.css",
+    "static/js/main.4baa3279.js"
+  ]
+}
