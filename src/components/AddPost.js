@@ -100,7 +100,7 @@ function AddPost({ open, setOpen }) {
                 required
                 fullWidth
                 multiline
-                rows={6}
+                minRows={6}
                 onBlur={onBlur}
                 error={errors.body}
                 variant="outlined"
@@ -117,7 +117,6 @@ function AddPost({ open, setOpen }) {
       <DialogActions>
         <Button onClick={() => setOpen(false)}>Cancel</Button>
         <Button
-          loading
           className="ml-2"
           variant="contained"
           autoFocus

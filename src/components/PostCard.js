@@ -53,13 +53,13 @@ function PostCard(props) {
         </CardActions>
         <Collapse in={expandedId === id} timeout="auto" unmountOnExit>
           <List>
-            {globalState.postComment.map(({ name, email, body }) => (
-              <CommentList {...{ name, email, body }} />
+            {globalState.postComment.map(({ name, email, body }, id) => (
+              <CommentList key={id} {...{ name, email, body }} />
             ))}
           </List>
           <FormGroup className="comment-input">
             <TextField
-              rows={2}
+              minRows={2}
               variant="filled"
               multiline
               value={commentText}
