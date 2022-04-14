@@ -25,9 +25,9 @@ function CommentList({ name, email, body }) {
                 variant="body2"
                 color="text.primary"
               >
-                {email}
+                {body}
               </Typography>
-              {body}
+              Email : {email}
             </React.Fragment>
           }
         />

@@ -47,10 +47,10 @@ function AddPost({ open, setOpen }) {
     callApi({
       url: addPost(),
       postData: submitdata,
-      onSuccess: () => {
+      onSuccess: (payload) => {
         setGlobalState((prv) => ({
           ...prv,
-          postList: [submitdata, ...prv.postList],
+          postList: [payload, ...prv.postList],
         }));
         setOpen(false);
       },
