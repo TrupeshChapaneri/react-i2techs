@@ -1,0 +1,44 @@
+.container-main {
+  display: "flex";
+  justify-content: center;
+  padding: 90px 0 50px;
+  max-width: 1000px;
+}
+.container-main-width {
+  max-width: 1000px;
+}
+.post-modal .MuiDialogTitle-root {
+  color: #fff;
+  margin: 0;
+  padding: 12px 16px;
+  background-color: #5664d2;
+}
+.post-modal .MuiTypography-h6 {
+  font-size: 17px;
+  line-height: 1.8;
+}
+.post-modal .MuiFormControl-root {
+  margin: 10px 0;
+}
+.post-modal .MuiDialogActions-root {
+  padding: 16px !important;
+}
+.post-modal .MuiFormHelperText-contained {
+  margin: 3px 0 0;
+}
+.comment-show-btn {
+  justify-content: flex-end;
+  margin: 0 16px 10px 0;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.comment-show-btn:hover {
+  opacity: 1;
+}
+.comment-input {
+  margin: 10px 65px 30px !important;
+  max-width: 500px !important;
+}
+.comment-input button {
+  margin: 10px 0 0;
+}
